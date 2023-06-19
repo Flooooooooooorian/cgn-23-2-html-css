@@ -1,0 +1,18 @@
+p {
+    font-size: 32px;
+}
+
+.impressum {
+    color: red;
+    background-color: magenta;
+}
+
+#p123, li {
+    border-style: solid;
+    border-color: lime;
+    border-width: 2px;
+}
+
+body {
+    border: dotted black 1px;
+}

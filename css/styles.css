@@ -1,5 +1,5 @@
 p {
-    font-size: 32px;
+    font-size: 16px;
 }
 
 .impressum {
@@ -15,4 +15,28 @@ p {
 
 body {
     border: dotted black 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.item-1 {
+    background-color: magenta;
+    width: 50px;
+    height: 50px;
+}
+
+.item-2 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+.item-3 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
 }
